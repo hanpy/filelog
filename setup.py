@@ -1,4 +1,7 @@
+#!/usr/bin/env python
+#encoding=utf-8
 from distutils.core import setup, Extension
+
 module1 = Extension('filelog',
         extra_compile_args=['-std=c++11'],
         sources = ['./filelog.cpp', './pyFilelog.cpp'])
